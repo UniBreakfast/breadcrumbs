@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <script src="script.js" defer></script> -->
+  <script src="app.js" type="module"></script>
+
+  <title>Breadcrumbs</title>
+</head>
+
+<body id="body">
+  <div class="crumbs">
+    <a href="root:">root</a>
+    &gt;
+    <a href="root:/child1">child1</a>
+    &gt;
+    <a href="root:/child1.1">child1.1</a>
+    &gt;
+    <a>child1.1.1</a>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#root/child1.1.1/child1.1.1.1">child1.1.1.1</a>
+    </li>
+    <li>
+      <a href="#root/child1.1.1/child1.1.1.2">child1.1.1.2</a>
+    </li>
+    <li>
+      <a href="#root/child1.1.1/child1.1.1.3">child1.1.1.3</a>
+    </li>
+  </ul>
+</body>
+
+</html>

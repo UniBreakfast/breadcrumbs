@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+  font: 18px Trebuchet MS, Helvetica, sans-serif;
+}
+
+.crumbs {
+  margin-bottom: 20px;
+}
+
+.crumbs a {
+  margin: 10px;
+}
